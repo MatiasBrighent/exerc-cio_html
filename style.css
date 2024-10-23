@@ -1,26 +1,43 @@
+*{
+    box-sizing: border-box;
+    
+}
 
-body{
-    margin: 200px 150px;
-    padding:120px 100px;
+.form{
+    padding: 16px 0;
+    margin-right: 25px;
     text-align: center;
     font-family: Helvetica, sans-serif;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
 
 h1{
-    font-size: 40px;
+    margin: 200px 0 8px;
+    text-align: center;
+    font-size: 48px;
     color: rgb(50, 106, 170);
 }
 
+.name{
+    font-weight: 600;
+    margin: 5px;
+}
 
+.email{
+    font-weight: 600;
+    margin: 5px;
+}
 
-.button{
-    background-color: rgb(31, 161, 31);
-    margin: 12px 8px 16px 40px;
-    padding: 16px 16px;
+.password{
+    font-weight: 600;
+    margin: 5px;
+}
+
+button.button{
+    background-color: rgb(38, 170, 38);
+    margin-left: 50px;
+    padding: 8px 8px;
     font-weight: 700;
     font-size: 24px;
-    box-sizing: border-box;
 }
